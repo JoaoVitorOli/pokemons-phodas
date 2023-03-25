@@ -1,0 +1,10 @@
+query allPokemons {
+  pokemon_v2_pokemon(limit: 5) {
+    name
+    id
+    pokemon_v2_pokemonsprites {
+      id
+      sprites
+    }
+  }
+}
